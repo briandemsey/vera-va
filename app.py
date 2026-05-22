@@ -15,6 +15,7 @@ import plotly.graph_objects as go
 # ============================================================================
 
 APP_VA_BLUE = "#002B5C"
+VA_BLUE = "#002B5C"
 VA_GOLD = "#C8A951"
 VA_DARK = "#001a3d"
 VA_RED = "#B22234"
