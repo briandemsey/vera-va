@@ -14,9 +14,7 @@ import plotly.graph_objects as go
 # CONFIGURATION
 # ============================================================================
 
-APP_PASSWORD = "vera2026"
-
-VA_BLUE = "#002B5C"
+APP_VA_BLUE = "#002B5C"
 VA_GOLD = "#C8A951"
 VA_DARK = "#001a3d"
 VA_RED = "#B22234"
@@ -560,9 +558,6 @@ def main():
         .stButton > button:hover {{ background-color: {VA_DARK}; color: white; }}
     </style>
     """, unsafe_allow_html=True)
-
-    if not check_password():
-        return
 
     divisions_df = load_divisions()
     access_df = load_access_data(divisions_df)
